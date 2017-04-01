@@ -161,7 +161,7 @@
               <text macro="editor" suffix=" – "/>
             </group>
             <text macro="publisher" prefix=" – "/>
-            <text variable="number-of-pages" prefix="– " suffix="c."/>
+            <text variable="number-of-pages" prefix="– " suffix="c. "/>
           </group>
         </if>
         <else-if type="chapter paper-conference" match="any">
@@ -172,7 +172,7 @@
               <text macro="editor"/>
             </group>
             <text macro="publisher" prefix=" "/>
-            <text variable="page" prefix=" – " suffix="с."/>
+            <text variable="page" prefix=" – " suffix="с. "/>
           </group>
         </else-if>
         <else-if type="webpage">
@@ -198,7 +198,7 @@
               <text variable="volume" prefix=" – Т. "/>
               <text variable="issue" prefix=", № "/>
             </group>
-            <text variable="page" prefix="– С." suffix=""/>
+            <text variable="page" prefix="– С. " suffix=""/>
             <!--<text variable="page" prefix="– " suffix="с."/>-->
           </group>
         </else-if>
