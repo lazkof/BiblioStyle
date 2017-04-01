@@ -193,10 +193,10 @@
                               </names>
                             </macro>
               -->
-              <text variable="container-title" form="long" prefix=" // "/>
+              <text variable="container-title" form="long" prefix=" // " suffix="."/>
               <text macro="year-date" prefix=" – " suffix="."/>
               <text variable="volume" prefix=" – Т. " suffix=","/>
-              <text variable="issue" prefix=" № "/>
+              <text variable="issue" prefix=" № " suffix="."/>
             </group>
             <text variable="page" prefix="– С. " suffix=""/>
             <!--<text variable="page" prefix="– " suffix="с."/>-->
@@ -209,7 +209,7 @@
               <text variable="container-title" form="short"/>
               <text macro="year-date" prefix="– " suffix="."/>
               <text variable="volume" prefix="– Т. " suffix=","/>
-              <text variable="issue" prefix=" № "/>
+              <text variable="issue" prefix=" № " suffix="."/>
             </group>
             <text variable="page" prefix="– " suffix="с. "/>
           </group>
